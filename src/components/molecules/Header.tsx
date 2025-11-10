@@ -1,5 +1,5 @@
 // components/molecules/Header.tsx
-import React, { JSX, useState } from "react";
+import { JSX, useState } from "react";
 import { 
   MenuIcon, 
   BellIcon, 
@@ -22,7 +22,7 @@ interface HeaderProps {
 }
 
 export function Header({ toggleSidebar }: HeaderProps): JSX.Element {
-  const [notificationCount, setNotificationCount] = useState<number>(3);
+  const [notificationCount, _setNotificationCount] = useState<number>(3);
 
   return (
     <header className="border-b p-4 flex items-center justify-between bg-background">

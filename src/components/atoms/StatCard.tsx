@@ -1,5 +1,5 @@
 // components/atoms/StatCard.tsx
-import React, { JSX } from "react";
+import { JSX } from "react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { cn } from "@/lib/utils";
 import { LucideIcon } from "lucide-react";
