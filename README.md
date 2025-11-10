@@ -44,12 +44,9 @@ This dashboard simulates and visualizes vehicle tracking data from 5 concurrent 
 
 ```bash
 # Clone and install
-git clone [your-repo-url]
+git clone https://github.com/chaitanyavarshney/fleet_tracking.git
 cd fleet-tracking-dashboard
 npm install
-
-# Make sure your data files are in:
-# public/data/assessment-2025-11-10-07-36-41/
 
 # Start dev server
 npm run dev
